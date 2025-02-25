@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dave's Website</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* General Styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgb(35, 35, 36);
+            margin: 0;
+            text-align: center;
+            color: white;
+        }
+
+        /* Header Styling */
+        .header {
+            background: #1e3c72;
+            color: white;
+            padding: 15px 0;
+            font-size: 26px;
+            font-weight: bold;
+            text-transform: uppercase;
+            border-top: 8px solid #2a5298;
+            border-bottom: 8px solid #2a5298;
+        }
+
+        /* Navigation Styling */
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        nav ul li {
+            display: inline-block;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            padding: 12px 24px;
+            background-color: #151516;
+            color: rgb(7, 251, 68);
+            border-radius: 8px;
+            display: inline-block;
+            transition: background 0.3s, color 0.3s;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            background-color: #2a5298;
+            color: white;
+        }
+
+        /* Container Styling */
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 5px solid #2a5298;
+            border-radius: 10px;
+            background: white;
+            color: black;
+        }
+
+        /* Intro/Explanation Box */
+        .intro-box {
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: white;
+            padding: 30px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.15);
+            max-width: 750px;
+            margin: 20px auto;
+        }
+
+        .intro-box p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 12px;
+        }
+
+        /* Projects Section */
+        .recent-projects {
+            font-size: 24px;
+            color: white;
+            margin-top: 30px;
+        }
+
+        .iframes-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        /* About Me Section */
+        .about-section {
+            max-width: 800px;
+            margin: 40px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            color: black;
+            box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .about-section h2 {
+            color: #1e3c72;
+        }
+
+        /* Image Gallery */
+        .photo-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .photo-gallery img {
+            width: 250px;
+            height: 160px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+
+        .photo-gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        /* Footer */
+        footer {
+            background: #1e3c72;
+            padding: 15px;
+            margin-top: 30px;
+            font-size: 16px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <section class="header">
+        <h1>DAVE'S WEBSITE</h1>
+    </section>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href=" index.html ">HOME</a></li>
+            <li><a href="ABOUT ME.html">ABOUT ME</a></li>
+            <li><a href="page3.html">SOCIAL MEDIA AND ACHIEVEMENTS</a></li>
+            <li><a href="page4.html">UPCOMING PROJECTS</a></li>
+            <li><a href="showing.html">SHOWCASE</a></li>
+        </ul>
+    </nav>
+
+    <!-- About Me Section -->
+    <section class="about-section">
+        <h2>About Me</h2>
+        <p>
+            My name is David. I do video content creation and web development, and I enjoy working with technology, always learning about different things.<br><br>
+            Here, you can see my recent project that I have created for social media.
+        </p>
+    </section>
+
+    <!-- Image Gallery -->
+    <h2>Photos</h2>
+   
+    <!-- Recent Projects Section -->
+    <h1 class="recent-projects">Recent Projects</h1>
+    <div class="iframes-container">
+        <iframe src="https://www.behance.net/embed/project/218741827?ilo0=1" height="200" width="200" allowfullscreen frameborder="0"></iframe>
+        <iframe src="https://www.behance.net/embed/project/218742219?ilo0=1" height="200" width="200" allowfullscreen frameborder="0"></iframe>
+        <iframe src="https://www.behance.net/embed/project/218742295?ilo0=1" height="200" width="200" allowfullscreen frameborder="0"></iframe>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Dave's Website</p>
+    </footer>
+
+</body>
+</html>
